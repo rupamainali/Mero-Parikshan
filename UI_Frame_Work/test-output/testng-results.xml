@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-11T21:28:36 EDT" name="Default suite" finished-at="2021-10-11T21:28:52 EDT" duration-ms="15317">
+    <groups>
+    </groups>
+    <test started-at="2021-10-11T21:28:36 EDT" name="Default test" finished-at="2021-10-11T21:28:52 EDT" duration-ms="15317">
+      <class name="tests.Inventory_Tests">
+        <test-method signature="verifyThatUserCanAbleToAddTheMultipleProductsInToTheCart()[pri:0, instance:tests.Inventory_Tests@5c1a8622]" started-at="2021-10-11T21:28:36 EDT" name="verifyThatUserCanAbleToAddTheMultipleProductsInToTheCart" finished-at="2021-10-11T21:28:44 EDT" duration-ms="7697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserCanAbleToAddTheMultipleProductsInToTheCart -->
+        <test-method is-config="true" signature="verifyTestResult(org.testng.ITestResult)[pri:0, instance:tests.Inventory_Tests@5c1a8622]" started-at="2021-10-11T21:28:44 EDT" name="verifyTestResult" finished-at="2021-10-11T21:28:44 EDT" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyThatUserCanAbleToAddTheMultipleProductsInToTheCart status=SUCCESS method=Inventory_Tests.verifyThatUserCanAbleToAddTheMultipleProductsInToTheCart()[pri:0, instance:tests.Inventory_Tests@5c1a8622] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTestResult -->
+        <test-method signature="verifyThatUserCanAbleToAddTheProductInToTheCart()[pri:0, instance:tests.Inventory_Tests@5c1a8622]" started-at="2021-10-11T21:28:44 EDT" name="verifyThatUserCanAbleToAddTheProductInToTheCart" finished-at="2021-10-11T21:28:51 EDT" duration-ms="6904" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
+at tests.Inventory_Tests.verifyThatUserCanAbleToAddTheProductInToTheCart(Inventory_Tests.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserCanAbleToAddTheProductInToTheCart -->
+        <test-method is-config="true" signature="verifyTestResult(org.testng.ITestResult)[pri:0, instance:tests.Inventory_Tests@5c1a8622]" started-at="2021-10-11T21:28:51 EDT" name="verifyTestResult" finished-at="2021-10-11T21:28:52 EDT" duration-ms="665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyThatUserCanAbleToAddTheProductInToTheCart status=FAILURE method=Inventory_Tests.verifyThatUserCanAbleToAddTheProductInToTheCart()[pri:0, instance:tests.Inventory_Tests@5c1a8622] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTestResult -->
+      </class> <!-- tests.Inventory_Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
